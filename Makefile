@@ -227,7 +227,8 @@ ifneq ($(TOOLCHAIN),)
 	~/.ape.revoke				\
 	/proc/self/status			\
 	rx:/usr/bin/qemu-aarch64		\
-	rx:/usr/bin/qemu-x86_64
+	rx:/usr/bin/qemu-x86_64			\
+	rx:/usr/libexec/qemu-binfmt/aarch64-binfmt-P
 endif
 
 PKGS =
